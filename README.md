@@ -27,6 +27,8 @@ OBS.: deverá trazer o que desenvolveu/aprendeu em todo encontro quinzenal.
 Ao final do desenvolvimento fará uma apresentação (SEM ppt, apenas mostrando o código e o site).
 
 Desafio:
+
 https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d
+
 Página a ser recriada no desafio:
 https://product-list-with-cart.vercel.app/
