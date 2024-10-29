@@ -1,0 +1,81 @@
+.body {
+    background-color: #f4f6f4;
+    padding-left: 4rem; 
+    padding-right: 4rem;
+    padding-bottom: 8.8rem;
+    font-weight: 400; 
+}
+.market {
+    padding: 20px;
+    background-color: #f4f6f4;
+    text-align: center;
+}
+
+.market-title {
+    color: rgb(76, 109, 18); 
+    font-size: 50px;
+}
+
+.market-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+.market-product_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.market-product_subcontent {
+    position: relative;
+    border: 2px solid transparent; 
+    width: 100%;
+}  
+.product-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.car-buy {
+    position: relative;
+    z-index: 20;
+    margin-top: -1rem;
+    display: flex;
+    width: 12rem;
+    gap: 0.8rem;
+    border-radius: 50px; 
+    border: 1px solid #d66452;
+    background-color: rgb(252, 252, 252);
+    padding: 8px;
+    transition: all 300ms ease;
+    align-items: center;
+    justify-content: center;
+}
+.car-image {
+    width: 30px;
+    height: 30px;
+}
+.car-name {
+    font-weight: 600;
+}
+.product-title {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.product-name {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #d66452;
+}
+
+  @media (max-width: 640px) {
+ 
+    .market-product {
+      grid-template-columns: 1fr;
+    }
+  }
